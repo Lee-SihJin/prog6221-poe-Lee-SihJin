@@ -26,6 +26,15 @@ A command-line based cybersecurity awareness chatbot that helps users learn abou
 - [Visual Studio](https://visualstudio.microsoft.com/) 2022 or later (recommended)
 - Windows OS (for audio playback functionality)
 
+### screenshot of a successful CI workflow run
+<img width="865" height="390" alt="image" src="https://github.com/user-attachments/assets/136e7016-ccc0-4550-84e7-87aa57660bf9" />
+<img width="865" height="388" alt="image" src="https://github.com/user-attachments/assets/1c6e13ae-2f60-4a91-aba7-6e2ba0cebdda" />
+
+
 ### Required NuGet Packages
 ```bash
 dotnet add package System.Windows.Extensions
+
+
+
+
