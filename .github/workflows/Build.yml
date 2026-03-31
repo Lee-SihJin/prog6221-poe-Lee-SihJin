@@ -19,10 +19,10 @@ jobs:
         dotnet-version: '9.0.x'
     
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore CybersecurityChatbot/CybersecurityChatbot.csproj
     
     - name: Build
-      run: dotnet build --no-restore --configuration Release
+      run: dotnet build CybersecurityChatbot/CybersecurityChatbot.csproj --configuration Release --no-restore
     
     - name: Test
       run: dotnet test --no-build --configuration Release --verbosity normal
