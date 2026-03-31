@@ -4,8 +4,8 @@ namespace CybersecurityChatbot.Models
 {
     public class ChatResponse
     {
-        public string Message { get; set; }
-        public string Topic { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public string Topic { get; set; } = string.Empty;
         public DateTime Timestamp { get; set; }
 
         public ChatResponse()
